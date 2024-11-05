@@ -4,7 +4,6 @@ I’m passionate about building and learning new things, and this space is dedic
 Here, you’ll find a variety of repositories where I tackle interesting problems, and build projects that reflect my skills and interests.
 
 📂 Projects
-I’m constantly working on new ideas, but here are a few highlights you’ll find here:
 
 	•	Web Development 🌐: Projects built using HTML, CSS, JavaScript, and more.
 	•	Automation Scripts 🔄: Python scripts and small tools to automate repetitive tasks.
@@ -16,5 +15,5 @@ I’m constantly working on new ideas, but here are a few highlights you’ll fi
 	•	Tools: Git, VS Code, Jupyter Notebooks, Docker, and more.
 
 📫 Connect with Me
-[LinkedIn](https://www.linkedin.com/in/sukhmanbalagan/)
+[LinkedIn](https://www.linkedin.com/in/sukhmanbalagan/) /n
 [Email](sbalagan22@gmail.com)
