@@ -15,5 +15,5 @@ Here, you’ll find a variety of repositories where I tackle interesting problem
 	•	Tools: Git, VS Code, Jupyter Notebooks, Docker, and more.
 
 📫 Connect with Me
-[LinkedIn](https://www.linkedin.com/in/sukhmanbalagan/) /n
+[LinkedIn](https://www.linkedin.com/in/sukhmanbalagan/) and
 [Email](sbalagan22@gmail.com)
