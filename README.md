@@ -5,14 +5,16 @@ Here, you’ll find a variety of repositories where I explore different programm
 
 📂 Projects
 I’m constantly working on new ideas, but here are a few highlights you’ll find here:
+
 	•	Web Development 🌐: Projects built using HTML, CSS, JavaScript, and more.
 	•	Automation Scripts 🔄: Python scripts and small tools to automate repetitive tasks.
 	•	Experiments & Learning 🧪: Experimental repositories and notes as I learn new technologies or frameworks.
 
 🛠️ Languages & Technologies
+
 	•	Languages: Python, Java, JavaScript, HTML, CSS
 	•	Tools: Git, VS Code, Jupyter Notebooks, Docker, and more.
 
 📫 Connect with Me
-	•	[LinkedIn]([url](https://www.linkedin.com/in/sukhmanbalagan/))
+	•	[LinkedIn](https://www.linkedin.com/in/sukhmanbalagan/)
 	•	[Email](sbalagan22@gmail.com)
