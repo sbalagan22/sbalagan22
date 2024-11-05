@@ -16,6 +16,5 @@ I’m constantly working on new ideas, but here are a few highlights you’ll fi
 	•	Tools: Git, VS Code, Jupyter Notebooks, Docker, and more.
 
 📫 Connect with Me
-
-	•	[LinkedIn](https://www.linkedin.com/in/sukhmanbalagan/)
-	•	[Email](sbalagan22@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/sukhmanbalagan/)
+[Email](sbalagan22@gmail.com)
