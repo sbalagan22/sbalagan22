@@ -1,7 +1,4 @@
 ## Hi, I'm Sukhman Balagan 👋  
-Early-career software developer with hands-on experience in CS fundamentals and building real projects. Passionate about learning, improving, and creating software that solves meaningful problems.
-
----
 
 ### Connect with me
 
