@@ -1,5 +1,5 @@
 ## Hi, I'm Sukhman Balagan 👋  
-2nd-year Computer Science student at York University.
+Early-career software developer with hands-on experience in CS fundamentals and building real projects. Passionate about learning, improving, and creating software that solves meaningful problems.
 
 ---
 
