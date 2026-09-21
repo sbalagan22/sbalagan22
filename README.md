@@ -1,118 +1,79 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=200&section=header&text=Sukhman&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Engineer%20%7C%20AI%20%2F%20ML%20Builder%20%7C%203x%20Hackathon%20Winner&descAlignY=58&descSize=18" alt="header" width="100%"/>
+<h1>Sukhman Balagan <img src="./verified.svg" width="26" height="26" align="absmiddle" alt="verified"/></h1>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=60A5FA&center=true&vCenter=true&width=650&lines=Data+Engineer+%40+Motorola+Solutions;Building+AI+%2F+ML+products+end+to+end;Models%2C+pipelines%2C+and+deployed+apps;CS+%40+York+University" alt="typing"/>
+**SWE / AI & ML / Designer**
+
+hey, i'm sukhman. i build software end to end.<br/>
+CS co-op at York, based in Toronto. 8+ hackathons deep and still showing up for the next one.<br/>
+I care about building AI that works and interfaces that feel right.
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=vercel&logoColor=white)](YOUR_WEBSITE_URL)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
-[![Resume](https://img.shields.io/badge/Resume-16a34a?style=for-the-badge&logo=readthedocs&logoColor=white)](YOUR_RESUME_URL)
+[![Portfolio](https://img.shields.io/badge/Portfolio-27272a?style=for-the-badge&logo=vercel&logoColor=white)](https://sukhman-balagan.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sukhmanbalagan)
 
 </div>
 
 ---
 
-## About
-
-I build AI and ML products end to end: train the model, build the data pipeline, ship the app. Data Engineer at **Motorola Solutions**, previously AI Software Engineer at **PTAG**, and a Computer Science (Co-op) student at **York University**. I win a lot of hackathons because I ship working demos, not slide decks.
+## Experience
 
 | | |
 |---|---|
-| **Now** | Data Engineer @ Motorola Solutions (Sept 2026 to present) |
-| **Before** | AI Software Engineer @ PTAG (May to Aug 2026) |
-| **Also** | Workshop Developer @ GDG York, freelance full-stack work |
-| **School** | BSc Computer Science, Co-op, York University |
-| **Based in** | Toronto, Ontario |
-| **Ask me about** | Transformers from scratch, RAG systems, prediction models, AWS event-driven architecture, hackathon strategy |
+| **2026 - now** | **Data Engineer** @ Motorola Solutions<br/>• Built scalable pipelines into Snowflake via event-triggered Snowpipe<br/>• Ingested REST APIs and external systems, orchestrated with Airflow<br/>• Python + SQL transforms, validation, and querying over large datasets |
+| **2026** | **Software Engineer** @ PTAG<br/>• Built and shipped Outfitter, a firm-wide AI ops platform, full stack: React, Node/Express, Postgres on Azure, Entra/MSAL auth, CI/CD<br/>• Wired Trelica's API for firm-wide AI usage analytics<br/>• Built SIS, a Rails 8 + Postgres app replacing 8 live Excel forecast sheets, with bidirectional SharePoint sync via MS Graph webhooks |
+| **2025** | **Software Engineer** @ PTAG<br/>• Embedded Power BI in the PTAG FM app via Azure AD + JS SDK<br/>• Built the RBAC + token layer in Rails for per-user reports<br/>• Modeled Power Query + DAX pipelines into live KPI dashboards |
+| **2026** | **Full-Stack Engineer** @ [The Groundwater Project](https://groundwater-search.pages.dev/)<br/>• Built AI semantic search over their education library<br/>• RAG with pgvector embeddings, MeiliSearch, and NLLB multilingual support |
+| **2026** | **Frontend Engineer** @ HMTS Machine Works<br/>• Rebuilt the company site to better engage engineering clients<br/>• Delivered a competitive analysis, insights report, and redesign roadmap |
 
 ---
 
 ## Featured work
 
-### ML systems and research
-
-**DiamondAI** | MLB pitch-sequence Transformer, live ML web app
-A ~7.5M-parameter decoder-only Transformer written in JAX/Flax, trained from scratch on ~7M Statcast pitches (2015 to 2024) on a Kaggle TPU v5e-8. Served through an event-driven AWS architecture (Lambda, Kinesis, SageMaker real-time endpoint, DynamoDB, API Gateway WebSocket, EventBridge, CDK). Hand-wrote a FlashAttention-style fused attention kernel in Pallas that runs **1.5x to 3.3x faster than XLA**.
-<!-- add repo/demo link -->
-
-**Learning Polymarket Taker Trade Direction from the On-Chain Tape** | Sole-authored research preprint
-Classical trade-direction classifiers (tick rule, BVC) collapse to near coin-flip on Polymarket. Using true on-chain ground-truth labels, LightGBM beats the price-bin-corrected tick rule by about 16 points (**0.8175 vs 0.6536** test accuracy), consistently across every price decile. An ablation shows maker identity alone scores at chance, so the signal comes from price trajectory, not leakage. Feeding predicted directions into microstructure metrics lifts OFI correlation with ground truth from 0.270 to **0.684**.
-Python, polars, LightGBM, PyTorch (1D CNN) | [Paper (DOI)](https://doi.org/10.5281/zenodo.21039812) | [Code](https://github.com/sbalagan22/polymarket-trade-direction) | [Dataset](https://huggingface.co/datasets/TimeSeventeen/Polymarket-v1)
-
-**OctagonAI** | UFC fight prediction platform
-CatBoost classifier with Glicko-2 ratings over 20+ years of fight data, evaluated with walk-forward validation. **~60.1% blind-test accuracy** (2019 to 2024) and +14.2% historical ROI in backtests.
-[Live site](https://octagonai.app)
-
-### Hackathon builds
-
-| Project | Result | What it does |
-|---|---|---|
-| **Bloomr** | 1st place, GDG x UofT AI Case Competition | AI study app with a 3D garden interface, gacha rewards, and quiz-based progression. Next.js, React Three Fiber, Supabase |
-| **VibeCheck** | Best Cybersecurity & Trust, IBM Z x UNSA Hackathon | Security scanner for vibe-coded apps. Two-tier pipeline (Qwen2.5-Coder-32B triage, IBM watsonx.ai Granite deep scan, Watson NLU severity scoring) streaming findings over SSE. Built in 36 hours |
-| **SideCode** | Runner-up, GDG York AI Case Competition | Renders a GitHub repo as a live interactive graph with multi-agent (security, bug, coordinator) Gemini review, Firebase live listeners, and webhook rescans. [Demo](https://bugtrap-puce.vercel.app) |
-| **HomeCrowd** | Finalist, NVIDIA Spark Hackathon | Fully local AI system forecasting how neighborhood events affect Toronto small businesses. Nemotron, cuOpt, cuML, FastAPI, Deck.gl. Built on DGX Spark in one weekend |
-| **Mouthpiece** | Finalist, Cursor Toronto Tech Week | Chrome extension that reads pages aloud with ElevenLabs voices and live Hindi/Spanish translation |
-| **Parliament Watch** | Finalist, Toronto Anthropic AI Hackathon | Canadian civics platform: real-time bill tracking, all 338 MP profiles, bias-aware news comparison across 5 outlets, Gemini-powered assistant |
-
-### Production and freelance
-
-**The Groundwater Project** | AI semantic search over an educational library (contract)
-RAG pipeline with Supabase/pgvector embeddings, MeiliSearch hybrid retrieval, and Meta NLLB for multilingual answers including African languages. Custom search UI, plus documented evaluation and user-testing results.
-[Live](https://groundwater-search.pages.dev)
-
----
-
-## Open source
-
-| Repo | Contribution |
+| Project | What it is |
 |---|---|
-| [facebook/react-native](https://github.com/facebook/react-native/pull/57465) | Merged PR adding a TypeScript type-test that pins the `View` imperative ref contract |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl/pull/3962) | Merged PR fixing `ignoreRobotsTxt` being silently dropped from the JS SDK crawl payload, written failing-test-first |
+| **[SideCode](https://bugtrap-puce.vercel.app/)**<br/>![Runner-up](https://img.shields.io/badge/Runner--up-GDG_York_AI_Case_Competition-71717a?style=flat-square) | Live code companion that reviews a GitHub repo as you ship. Security and bug agents review every file, a coordinator settles one verdict per file, and it all streams onto an interactive graph with one-click non-destructive fixes. |
+| **[VibeCheck](https://vibecheck-eta-one.vercel.app/)**<br/>![Winner](https://img.shields.io/badge/Winner-IBM_Z_x_UNSA_Hackathon-eab308?style=flat-square) | Security scanner for the age of vibe coding. Connect a repo and watch vulnerabilities stream in plain English with one-click fix PRs. Two-tier LLM pipeline, findings in ~25s instead of 5+ minutes. 36-hour build. |
+| **[OctagonAI](https://www.octagonai.app/)**<br/>![Traffic](https://img.shields.io/badge/1000+-monthly_visitors-2563eb?style=flat-square) | UFC fight predictor trained on 20+ years of data. Zero-leakage pipeline with Glicko-2 and walk-forward validation, calibrated CatBoost at ~60% blind-test accuracy, +14% backtested ROI, updated weekly via GitHub Actions. |
+| **[Groundwater](https://groundwater-search.pages.dev/)** | AI semantic search over a global educational library, built on RAG with pgvector, MeiliSearch, and multilingual support. |
+| **[Bloomr](https://www.bloomr-ai.com/)**<br/>![Winner](https://img.shields.io/badge/Winner-GDG_x_UofT_AI_Case_Competition-eab308?style=flat-square)<br/>![Users](https://img.shields.io/badge/100+-monthly_users-2563eb?style=flat-square) | AI study companion that turns any uploaded material into adaptive quizzes, with a 3D garden that grows as you learn. OpenAI quizzes, ElevenLabs voice sessions, React Three Fiber, Next.js + Supabase. |
+| **[DiamondAI](https://diamond-ai-app.vercel.app/)** | MLB pitch-sequence Transformer (~7.5M params) trained from scratch on ~7M Statcast pitches. Reads live games pitch by pitch and predicts what happens next. Serverless AWS pipeline in CDK, plus a hand-written Pallas TPU kernel that runs 1.5x to 3.3x faster than XLA. |
 
----
+### More
 
-## Recognition
-
-| Event | Result |
+| Project | What it is |
 |---|---|
-| GDG x UofT AI Case Competition | 1st place |
-| IBM Z x UNSA Hackathon | Best Cybersecurity & Trust |
-| GDG York AI Case Competition | Runner-up |
-| GDG UTSC x UofT Build With AI | 2nd place |
-| NVIDIA Spark, Cursor Toronto Tech Week, Toronto Anthropic AI Hackathon | Finalist |
+| **HomeCrowd**<br/>![Finalist](https://img.shields.io/badge/Finalist-NVIDIA_Spark_Hackathon-2563eb?style=flat-square) | Local-first AI that warns Toronto small businesses what is about to hit their block, then forecasts revenue impact. Nemotron on-device, cuOpt + cuML, built on DGX Spark in one weekend. |
+| **Mouthpiece**<br/>![Finalist](https://img.shields.io/badge/Finalist-Cursor_Toronto_Tech_Week-2563eb?style=flat-square) | Chrome extension that reads any page aloud in ElevenLabs voices, swapping voice per quoted speaker, with live in-place Hindi and Spanish translation. |
+| **Parliament Watch**<br/>![Finalist](https://img.shields.io/badge/Finalist-Toronto_Anthropic_AI_Hackathon-2563eb?style=flat-square) | Canadian civics platform with real-time bill tracking, MP profiles, bias-aware news comparison, and a Gemini assistant that explains Parliament in plain language. |
+| **GreenWash**<br/>![Hackathon](https://img.shields.io/badge/GenAI_Genesis-Hackathon-71717a?style=flat-square) | ESG report auditor that extracts every sustainability claim and checks it against independent web evidence. |
 
 ---
 
-## Tech stack
+## Research and open source
+
+- **Sole-author paper:** [Learning Polymarket Taker Trade Direction from the On-Chain Tape](https://doi.org/10.5281/zenodo.21039812). LightGBM beats the price-corrected tick rule by ~16 points (0.82 vs 0.65) on true on-chain labels. [Code](https://github.com/sbalagan22/polymarket-trade-direction)
+- **Merged PR, [facebook/react-native](https://github.com/facebook/react-native/pull/57465):** TypeScript type-test pinning the `View` imperative ref contract
+- **Merged PR, [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl/pull/3962):** fixed `ignoreRobotsTxt` being silently dropped from the JS SDK crawl payload, failing-test-first
+
+---
+
+## Stack
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,py,tailwind,supabase,postgres,rails,aws,azure,gcp,firebase,github,vercel&perline=14" alt="stack"/>
+
+Also: Claude, OpenAI, Gemini, JAX, PyTorch, LightGBM, CatBoost, Snowflake, Airflow, Power BI
+
+---
+
+> "I am not talented, I am obsessed."
+> Conor McGregor
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=py,ts,js,react,nextjs,tailwind,fastapi,pytorch,aws,gcp,firebase,supabase,postgres,rails,vercel,git&perline=8" alt="tech stack"/>
+**SIGNED, SUKHMAN BALAGAN**
 
-</div>
-
-**ML:** JAX/Flax, PyTorch, LightGBM, CatBoost, XGBoost, ONNX, polars, cuML
-**Cloud and data:** AWS (Lambda, Kinesis, SageMaker, DynamoDB, CDK), GCP (Vertex AI), Firebase, Supabase/pgvector, MeiliSearch
-**LLM work:** RAG, multi-agent pipelines, Gemini, watsonx.ai, Nemotron, OpenAI APIs
-
----
-
-## Community
-
-- **Workshop Developer, Google Developer Group York:** build and maintain hands-on coding workshops and demo apps (Firebase, Gemini API, GCP) and support live debugging at events
-- **Dev Team, The Launch Room:** built technical workshops for entrepreneurship events and conferences
-- **Vice President, DECA:** led a 7-person board and trained 50+ competitors to 11 Top-10 regional placements
-
----
-
-<div align="center">
-
-<a href="https://github.com/sbalagan22"><img height="170" src="https://github-readme-stats.vercel.app/api?username=sbalagan22&show_icons=true&theme=tokyonight&hide_border=true" alt="stats"/></a>
-<a href="https://github.com/sbalagan22"><img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sbalagan22&layout=compact&theme=tokyonight&hide_border=true" alt="top languages"/></a>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:0f172a&height=100&section=footer" alt="footer" width="100%"/>
+[GitHub](https://github.com/sbalagan22) | [LinkedIn](https://www.linkedin.com/in/sukhmanbalagan) | [Portfolio](https://sukhman-balagan.vercel.app)
 
 </div>
