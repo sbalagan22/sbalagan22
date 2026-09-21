@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=200&section=header&text=Sukhman%20Balagan&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=SWE%20%2F%20AI%20%2B%20ML%20%2F%20Designer&descAlignY=58&descSize=18" alt="header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=200&section=header&text=Sukhman%20Balagan&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=50" alt="header" width="100%"/>
+
+</div>
 
 <div align="center">
 
