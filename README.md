@@ -2,10 +2,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=200&section=header&text=Sukhman%20Balagan&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=SWE%20%2F%20AI%20%2B%20ML%20%2F%20Designer&descAlignY=58&descSize=18" alt="header" width="100%"/>
 
-</div>
-
-hey, i'm sukhman, a CS student at York in Toronto who's 8+ hackathons deep and still showing up for the next one.
-
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-27272a?style=for-the-badge&logo=vercel&logoColor=white)](https://sukhman-balagan.vercel.app)
