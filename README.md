@@ -1,19 +1,10 @@
-<div align="center">
-
-<h1>Sukhman Balagan <img src="./verified.svg" width="26" height="26" align="absmiddle" alt="verified"/></h1>
-
-**SWE / AI & ML / Designer**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=200&section=header&text=Sukhman%20Balagan&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=SWE%20%2F%20AI%20%26%20ML%20%2F%20Designer&descAlignY=58&descSize=18" alt="Sukhman Balagan, SWE / AI & ML / Designer" width="100%"/>
 
 hey, i'm sukhman. i build software end to end.<br/>
-CS co-op at York, based in Toronto. 8+ hackathons deep and still showing up for the next one.<br/>
-I care about building AI that works and interfaces that feel right.
-
-<br/>
+CS co-op at York, based in Toronto. 8+ hackathons deep and still showing up for the next one.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-27272a?style=for-the-badge&logo=vercel&logoColor=white)](https://sukhman-balagan.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sukhmanbalagan)
-
-</div>
 
 ---
 
@@ -21,11 +12,11 @@ I care about building AI that works and interfaces that feel right.
 
 | | |
 |---|---|
-| **2026 - now** | **Data Engineer** @ Motorola Solutions<br/>• Built scalable pipelines into Snowflake via event-triggered Snowpipe<br/>• Ingested REST APIs and external systems, orchestrated with Airflow<br/>• Python + SQL transforms, validation, and querying over large datasets |
-| **2026** | **Software Engineer** @ PTAG<br/>• Built and shipped Outfitter, a firm-wide AI ops platform, full stack: React, Node/Express, Postgres on Azure, Entra/MSAL auth, CI/CD<br/>• Wired Trelica's API for firm-wide AI usage analytics<br/>• Built SIS, a Rails 8 + Postgres app replacing 8 live Excel forecast sheets, with bidirectional SharePoint sync via MS Graph webhooks |
-| **2025** | **Software Engineer** @ PTAG<br/>• Embedded Power BI in the PTAG FM app via Azure AD + JS SDK<br/>• Built the RBAC + token layer in Rails for per-user reports<br/>• Modeled Power Query + DAX pipelines into live KPI dashboards |
-| **2026** | **Full-Stack Engineer** @ [The Groundwater Project](https://groundwater-search.pages.dev/)<br/>• Built AI semantic search over their education library<br/>• RAG with pgvector embeddings, MeiliSearch, and NLLB multilingual support |
-| **2026** | **Frontend Engineer** @ HMTS Machine Works<br/>• Rebuilt the company site to better engage engineering clients<br/>• Delivered a competitive analysis, insights report, and redesign roadmap |
+| **2026 - now** | **Data Engineer** @ Motorola Solutions<br/><br/>• Built scalable pipelines into Snowflake via event-triggered Snowpipe<br/><br/>• Ingested REST APIs and external systems, orchestrated with Airflow<br/><br/>• Python + SQL transforms, validation, and querying over large datasets |
+| **2026** | **Software Engineer** @ PTAG<br/><br/>• Built and shipped Outfitter, a firm-wide AI ops platform, full stack: React, Node/Express, Postgres on Azure, Entra/MSAL auth, CI/CD<br/><br/>• Wired Trelica's API for firm-wide AI usage analytics<br/><br/>• Built SIS, a Rails 8 + Postgres app replacing 8 live Excel forecast sheets, with bidirectional SharePoint sync via MS Graph webhooks |
+| **2025** | **Software Engineer** @ PTAG<br/><br/>• Embedded Power BI in the PTAG FM app via Azure AD + JS SDK<br/><br/>• Built the RBAC + token layer in Rails for per-user reports<br/><br/>• Modeled Power Query + DAX pipelines into live KPI dashboards |
+| **2026** | **Full-Stack Engineer** @ [The Groundwater Project](https://groundwater-search.pages.dev/)<br/><br/>• Built AI semantic search over their education library<br/><br/>• RAG with pgvector embeddings, MeiliSearch, and NLLB multilingual support |
+| **2026** | **Frontend Engineer** @ HMTS Machine Works<br/><br/>• Rebuilt the company site to better engage engineering clients<br/><br/>• Delivered a competitive analysis, insights report, and redesign roadmap |
 
 ---
 
@@ -39,15 +30,6 @@ I care about building AI that works and interfaces that feel right.
 | **[Groundwater](https://groundwater-search.pages.dev/)** | AI semantic search over a global educational library, built on RAG with pgvector, MeiliSearch, and multilingual support. |
 | **[Bloomr](https://www.bloomr-ai.com/)**<br/>![Winner](https://img.shields.io/badge/Winner-GDG_x_UofT_AI_Case_Competition-eab308?style=flat-square)<br/>![Users](https://img.shields.io/badge/100+-monthly_users-2563eb?style=flat-square) | AI study companion that turns any uploaded material into adaptive quizzes, with a 3D garden that grows as you learn. OpenAI quizzes, ElevenLabs voice sessions, React Three Fiber, Next.js + Supabase. |
 | **[DiamondAI](https://diamond-ai-app.vercel.app/)** | MLB pitch-sequence Transformer (~7.5M params) trained from scratch on ~7M Statcast pitches. Reads live games pitch by pitch and predicts what happens next. Serverless AWS pipeline in CDK, plus a hand-written Pallas TPU kernel that runs 1.5x to 3.3x faster than XLA. |
-
-### More
-
-| Project | What it is |
-|---|---|
-| **HomeCrowd**<br/>![Finalist](https://img.shields.io/badge/Finalist-NVIDIA_Spark_Hackathon-2563eb?style=flat-square) | Local-first AI that warns Toronto small businesses what is about to hit their block, then forecasts revenue impact. Nemotron on-device, cuOpt + cuML, built on DGX Spark in one weekend. |
-| **Mouthpiece**<br/>![Finalist](https://img.shields.io/badge/Finalist-Cursor_Toronto_Tech_Week-2563eb?style=flat-square) | Chrome extension that reads any page aloud in ElevenLabs voices, swapping voice per quoted speaker, with live in-place Hindi and Spanish translation. |
-| **Parliament Watch**<br/>![Finalist](https://img.shields.io/badge/Finalist-Toronto_Anthropic_AI_Hackathon-2563eb?style=flat-square) | Canadian civics platform with real-time bill tracking, MP profiles, bias-aware news comparison, and a Gemini assistant that explains Parliament in plain language. |
-| **GreenWash**<br/>![Hackathon](https://img.shields.io/badge/GenAI_Genesis-Hackathon-71717a?style=flat-square) | ESG report auditor that extracts every sustainability claim and checks it against independent web evidence. |
 
 ---
 
@@ -64,16 +46,3 @@ I care about building AI that works and interfaces that feel right.
 <img src="https://skillicons.dev/icons?i=react,nextjs,ts,py,tailwind,supabase,postgres,rails,aws,azure,gcp,firebase,github,vercel&perline=14" alt="stack"/>
 
 Also: Claude, OpenAI, Gemini, JAX, PyTorch, LightGBM, CatBoost, Snowflake, Airflow, Power BI
-
----
-
-> "I am not talented, I am obsessed."
-> Conor McGregor
-
-<div align="center">
-
-**SIGNED, SUKHMAN BALAGAN**
-
-[GitHub](https://github.com/sbalagan22) | [LinkedIn](https://www.linkedin.com/in/sukhmanbalagan) | [Portfolio](https://sukhman-balagan.vercel.app)
-
-</div>
