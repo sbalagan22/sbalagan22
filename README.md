@@ -1,22 +1,42 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=200&section=header&text=Sukhman%20Balagan&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=SWE%20%2F%20AI%20%26%20ML%20%2F%20Designer&descAlignY=58&descSize=18" alt="Sukhman Balagan, SWE / AI & ML / Designer" width="100%"/>
+<div align="center">
 
-hey, i'm sukhman. i build software end to end.<br/>
-CS co-op at York, based in Toronto. 8+ hackathons deep and still showing up for the next one.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=200&section=header&text=Sukhman%20Balagan&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=SWE%20%2F%20AI%20%2B%20ML%20%2F%20Designer&descAlignY=58&descSize=18" alt="header" width="100%"/>
+
+</div>
+
+hey, i'm sukhman, a CS student at York in Toronto who's 8+ hackathons deep and still showing up for the next one.
+
+<div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-27272a?style=for-the-badge&logo=vercel&logoColor=white)](https://sukhman-balagan.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sukhmanbalagan)
+
+</div>
 
 ---
 
 ## Experience
 
-| | |
-|---|---|
-| **2026 - now** | **Data Engineer** @ Motorola Solutions<br/><br/>• Built scalable pipelines into Snowflake via event-triggered Snowpipe<br/><br/>• Ingested REST APIs and external systems, orchestrated with Airflow<br/><br/>• Python + SQL transforms, validation, and querying over large datasets |
-| **2026** | **Software Engineer** @ PTAG<br/><br/>• Built and shipped Outfitter, a firm-wide AI ops platform, full stack: React, Node/Express, Postgres on Azure, Entra/MSAL auth, CI/CD<br/><br/>• Wired Trelica's API for firm-wide AI usage analytics<br/><br/>• Built SIS, a Rails 8 + Postgres app replacing 8 live Excel forecast sheets, with bidirectional SharePoint sync via MS Graph webhooks |
-| **2025** | **Software Engineer** @ PTAG<br/><br/>• Embedded Power BI in the PTAG FM app via Azure AD + JS SDK<br/><br/>• Built the RBAC + token layer in Rails for per-user reports<br/><br/>• Modeled Power Query + DAX pipelines into live KPI dashboards |
-| **2026** | **Full-Stack Engineer** @ [The Groundwater Project](https://groundwater-search.pages.dev/)<br/><br/>• Built AI semantic search over their education library<br/><br/>• RAG with pgvector embeddings, MeiliSearch, and NLLB multilingual support |
-| **2026** | **Frontend Engineer** @ HMTS Machine Works<br/><br/>• Rebuilt the company site to better engage engineering clients<br/><br/>• Delivered a competitive analysis, insights report, and redesign roadmap |
+### Data Engineer @ Motorola Solutions
+*Sept 2026 - Present*
+
+- Built scalable pipelines into Snowflake via event-triggered Snowpipe
+- Ingested REST APIs and external systems, orchestrated with Airflow
+- Python + SQL transforms, validation, and querying over large datasets
+
+### Software Engineer @ PTAG
+*May - Aug 2026*
+
+- Built and shipped Outfitter, a firm-wide AI ops platform, full stack: React, Node/Express, Postgres on Azure, Entra/MSAL auth, CI/CD
+- Wired Trelica's API for firm-wide AI usage analytics
+- Built SIS, a Rails 8 + Postgres app replacing 8 live Excel forecast sheets, with bidirectional SharePoint sync via MS Graph webhooks
+
+### Software Engineer @ PTAG
+*May - Aug 2025*
+
+- Embedded Power BI in the PTAG FM app via Azure AD + JS SDK
+- Built the RBAC + token layer in Rails for per-user reports
+- Modeled Power Query + DAX pipelines into live KPI dashboards
 
 ---
 
@@ -41,8 +61,10 @@ CS co-op at York, based in Toronto. 8+ hackathons deep and still showing up for 
 
 ---
 
-## Stack
+<div align="center">
+
+<h2>Stack</h2>
 
 <img src="https://skillicons.dev/icons?i=react,nextjs,ts,py,tailwind,supabase,postgres,rails,aws,azure,gcp,firebase,github,vercel&perline=14" alt="stack"/>
 
-Also: Claude, OpenAI, Gemini, JAX, PyTorch, LightGBM, CatBoost, Snowflake, Airflow, Power BI
+</div>
